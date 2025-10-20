@@ -1,0 +1,10 @@
+dynamodb_tables:
+  table1:
+    name: strength_cat_db
+    partition_key:
+      name: username
+      type: S
+    sort_key:
+      name: timestamp
+      type: S
+    tagValue: terragrunt_table1

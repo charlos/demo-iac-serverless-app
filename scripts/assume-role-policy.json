@@ -1,0 +1,10 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["sts:AssumeRole", "iam:GetRole", "iam:ListRoles"],
+      "Resource": "arn:aws:iam::837447313793:role/demo-terraform"
+    }
+  ]
+}
